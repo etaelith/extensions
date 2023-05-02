@@ -1,0 +1,15 @@
+{
+    "name": "Activa el modo oscuro",
+    "version": "0.0.02",
+    "description": "Activa el modo oscuro en la herramienta de desarrollador 'Elements > Styles'",
+    "manifest_version": 3,
+    "devtools_page":  "devtools.html",
+    "permissions": [
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Activa el modo oscuro"
+    }
+  }
+  

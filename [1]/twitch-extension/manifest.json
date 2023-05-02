@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Mi Extensión Twitch",
+    "version": "1.0.32",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+   
+  "host_permissions": [
+    "https://api.twitch.tv/*"
+  ]
+    
+  }
+  
